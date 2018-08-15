@@ -1,0 +1,255 @@
+{
+    gate.1: ["9","3","false","setup"],
+    gate.1.effects: ["ShorterUltimateCD"],
+    
+    gate.2: ["9","3","false","setup2"],
+    gate.2.effects: ["ShorterUltimateCD"],
+    
+    gate.3: ["9","3","false","setup5"],
+    gate.3.effects: ["ShorterUltimateCD","CritChance"],
+    
+    gate.4: ["10","4","false","setup9"],
+    gate.4.effects: ["FastEnemies","LongerUltimateCD"],
+    
+    gate.5: ["10","5","false","setup6"],
+    gate.5.effects: ["DyingDealsDamage","ShorterRespawns","Boss"],
+    
+    gate.6: ["10","5","false","setup9"],
+    gate.6.effects: ["CritChance","ShorterRespawns"],
+    
+    gate.7: ["11","5","false","setup7"],
+    gate.7.effects: ["NoAbilityDamage","CritChance"],
+    
+    gate.8: ["11","3","false","setup10"],
+    gate.8.effects: ["UpgradeCostReduction","LongerUltimateCD","Regeneration"],
+    
+    gate.9: ["11","3","false","setup7"],
+    gate.9.effects: ["AllDamageBuff"],
+    
+    gate.10: ["12","3","false","setup4"],
+    gate.10.effects: ["NoGoldDrop","GoldToDamage","Boss"],
+    
+    gate.11: ["12","3","false","setup8"],
+    gate.11.effects: ["ReflectDamage","FastEnemies"],
+    
+    gate.12: ["12","4","false","setup6"],
+    gate.12.effects: ["MeteorShower","DyingDealsDamage","AllDamageBuff"],
+    
+    gate.13: ["13","5","false","setup5"],
+    gate.13.effects: ["UpgradeCostReduction","ShorterRespawns"],
+    
+    gate.14: ["13","5","false","setup3"],
+    gate.14.effects: ["FastEnemies","EveryoneDodges","StunDropsGold"],
+    
+    gate.15: ["13","5","false","setup4"],
+    gate.15.effects: ["HeroHealthToDamage","OnlyDefenseCharms","Boss"],
+    
+    gate.16: ["14","4","false","setup6"],
+    gate.16.effects: ["GoldToDamage","CharmsProgress"],
+    
+    gate.17: ["14","3","false","setup2"],
+    gate.17.effects: ["NoAbilityDamage","OnlyAttackCharms"],
+    
+    gate.18: ["14","3","false","setup10"],
+    gate.18.effects: ["Regeneration","LongerRespawns"],
+    
+    gate.19: ["15","4","false","setup5"],
+    gate.19.effects: ["GoldToDamage","TreasureChests"],
+    
+    gate.20: ["15","5","false","setup9"],
+    gate.20.effects: ["FastEnemies","ShorterRespawns","Boss"],
+    
+    gate.21: ["15","4","false","setup3"],
+    gate.21.effects: ["ShorterUltimateCD","StunDropsGold"],
+    
+    gate.22: ["16","3","false","setup5"],
+    gate.22.effects: ["EveryoneDodges","AllDamageBuff"],
+    
+    gate.23: ["16","3","false","setup2"],
+    gate.23.effects: ["ReflectDamage","TreasureChests"],
+    
+    gate.24: ["16","2","false","setup6"],
+    gate.24.effects: ["LongerUltimateCD","OnlyDefenseCharms"],
+    
+    gate.25: ["17","3","false","setup3"],
+    gate.25.effects: ["NoGoldDrop","DoubledCrits","Boss"],
+    
+    gate.26: ["17","4","false","setup9"],
+    gate.26.effects: ["Regeneration","CritChance"],
+    
+    gate.27: ["17","5","false","setup11"],
+    gate.27.effects: ["CharmsProgress","OnlyAttackCharms"],
+    
+    gate.28: ["18","3","false","setup6"],
+    gate.28.effects: ["ReflectDamage","DyingHealsAllies"],
+    
+    gate.29: ["18","2","false","setup5"],
+    gate.29.effects: ["FastEnemies","DyingHealsAllies","EveryoneDodges"],
+    
+    gate.30: ["18","5","false","setup10"],
+    gate.30.effects: ["ShorterRespawns","AllDamageBuff","Boss"],
+    
+    gate.31: ["19","3","false","setup3"],
+    gate.31.effects: ["TreasureChests"],
+    
+    gate.32: ["19","3","false","setup11"],
+    gate.32.effects: ["DoubledCrits","DyingDealsDamage"],
+    
+    gate.33: ["19","1","false","setup2"],
+    gate.33.effects: ["LongerRespawns","EveryoneDodges"],
+    
+    gate.34: ["20","3","false","setup10"],
+    gate.34.effects: ["AllDamageBuff","ReflectDamage"],
+    
+    gate.35: ["20","3","false","setup4"],
+    gate.35.effects: ["MeteorShower","DoubledCrits","Boss"],
+    
+    gate.36: ["20","3","false","setup6"],
+    gate.36.effects: ["Regeneration","DyingDealsDamage"],
+    
+    gate.37: ["21","1","false","setup10"],
+    gate.37.effects: ["CharmsProgress","ShorterRespawns","CritChance"],
+    
+    gate.38: ["21","3","false","setup10"],
+    gate.38.effects: ["TreasureChests","NoGoldDrop"],
+    
+    gate.39: ["21","4","false","setup2"],
+    gate.39.effects: ["CritChance","StunDropsGold","MeteorShower"],
+    
+    gate.40: ["22","3","false","setup12"],
+    gate.40.effects: ["CharmsProgress","MeteorShower","Boss"],
+    
+    gate.41: ["22","3","false","setup3"],
+    gate.41.effects: ["FastEnemies","ReflectDamage"],
+    
+    gate.42: ["22","5","false","setup7"],
+    gate.42.effects: ["DyingDealsDamage","DoubledCrits"],
+    
+    gate.43: ["23","3","false","setup9"],
+    gate.43.effects: ["HeroHealthToDamage","LongerUltimateCD","DoubledCrits"],
+    
+    gate.44: ["23","4","false","setup4"],
+    gate.44.effects: ["DyingDealsDamage","ShorterRespawns"],
+    
+    gate.45: ["23","3","false","setup5"],
+    gate.45.effects: ["LongerUltimateCD","DyingHealsAllies","Boss"],
+    
+    gate.46: ["24","2","false","setup2"],
+    gate.46.effects: ["MeteorShower","ShorterRespawns"],
+    
+    gate.47: ["24","3","false","setup8"],
+    gate.47.effects: ["DoubledCrits","HeroHealthToDamage","AllDamageBuff"],
+    
+    gate.48: ["24","5","false","setup3"],
+    gate.48.effects: ["EveryoneDodges","CritChance"],
+    
+    gate.49: ["25","3","false","setup7"],
+    gate.49.effects: ["NoGoldDrop","LongerRespawns"],
+    
+    gate.50: ["25","4","false","setup9"],
+    gate.50.effects: ["OnlyUtilityCharms","GoldToDamage","Boss"],
+    
+    gate.51: ["25","3","false","setup4"],
+    gate.51.effects: ["CritChance","ShorterRespawns","Regeneration"],
+    
+    gate.52: ["26","3","false","setup5"],
+    gate.52.effects: ["StunDropsGold","TreasureChests"],
+    
+    gate.53: ["26","4","false","setup11"],
+    gate.53.effects: ["GoldToDamage"],
+    
+    gate.54: ["26","3","false","setup7"],
+    gate.54.effects: ["NoAbilityDamage","OnlyAttackCharms"],
+    
+    gate.55: ["27","3","false","setup3"],
+    gate.55.effects: ["OnlyUtilityCharms","UpgradeCostReduction","Boss"],
+    
+    gate.56: ["27","1","false","setup6"],
+    gate.56.effects: ["DyingHealsAllies","ReflectDamage"],
+    
+    gate.57: ["27","5","false","setup10"],
+    gate.57.effects: ["ShorterRespawns","ShorterUltimateCD"],
+    
+    gate.58: ["28","3","false","setup4"],
+    gate.58.effects: ["EveryoneDodges","UpgradeCostReduction"],
+    
+    gate.59: ["28","4","false","setup7"],
+    gate.59.effects: ["ShorterUltimateCD"],
+    
+    gate.60: ["28","3","false","setup11"],
+    gate.60.effects: ["AllDamageBuff","LongerRespawns","Boss"],
+    
+    gate.61: ["29","2","false","setup8"],
+    gate.61.effects: ["CharmsProgress","DyingDealsDamage"],
+    
+    gate.62: ["29","5","false","setup2"],
+    gate.62.effects: ["DoubledCrits","Regeneration"],
+    
+    gate.63: ["29","1","false","setup5"],
+    gate.63.effects: ["TreasureChests","EveryoneDodges","NoGoldDrop"],
+    
+    gate.64: ["30","3","false","setup4"],
+    gate.64.effects: ["OnlyAttackCharms","AllDamageBuff"],
+    
+    gate.65: ["30","4","false","setup3"],
+    gate.65.effects: ["LongerUltimateCD","ReflectDamage","Boss"],
+    
+    gate.66: ["30","3","false","setup11"],
+    gate.66.effects: ["CharmsProgress"],
+    
+    gate.67: ["31","2","false","setup7"],
+    gate.67.effects: ["MeteorShower","Regeneration"],
+    
+    gate.68: ["31","5","false","setup3"],
+    gate.68.effects: ["DoubledCrits","HeroHealthToDamage"],
+    
+    gate.69: ["31","3","false","setup6"],
+    gate.69.effects: ["DyingHealsAllies","ReflectDamage"],
+    
+    gate.70: ["32","4","false","setup5"],
+    gate.70.effects: ["CritChance","DyingHealsAllies","Boss"],
+    
+    gate.71: ["32","1","false","setup8"],
+    gate.71.effects: ["UpgradeCostReduction"],
+    
+    gate.72: ["32","5","false","setup10"],
+    gate.72.effects: ["ShorterUltimateCD","Regeneration"],
+    
+    gate.73: ["33","3","false","setup4"],
+    gate.73.effects: ["LongerRespawns","FastEnemies"],
+    
+    gate.74: ["33","1","false","setup7"],
+    gate.74.effects: ["DyingDealsDamage","ShorterRespawns"],
+    
+    gate.75: ["33","2","false","setup6"],
+    gate.75.effects: ["ShorterRespawns","NoAbilityDamage","Boss"],
+    
+    gate.76: ["34","3","false","setup8"],
+    gate.76.effects: ["MeteorShower","CritChance"],
+    
+    gate.77: ["34","3","false","setup9"],
+    gate.77.effects: ["GoldToDamage","LongerUltimateCD","AllDamageBuff"],
+    
+    gate.78: ["34","3","false","setup3"],
+    gate.78.effects: ["NoGoldDrop","NoAbilityDamage"],
+    
+    gate.79: ["35","5","false","setup13"],
+    gate.79.effects: ["CharmsProgress","ShorterUltimateCD","ShorterRespawns"],
+    
+    gate.80: ["35","5","false","setup13"],
+    gate.80.effects: ["FastEnemies","LongerRespawns","Boss"],
+    
+    setup: ["300","25","40","1.0","0.0","0.2"],
+    setup2: ["300","25","40","1.0","0.0","0.2"],
+    setup3: ["300","50","40","1.2","0.5","0.12"],
+    setup4: ["300","120","40","1.4","0.0","0.06"],
+    setup5: ["480","60","40","1.6","0.5","0.1"],
+    setup6: ["480","80","40","1.7","0.5","0.08"],
+    setup7: ["480","100","40","1.8","0.5","0.07"],
+    setup1: ["300","25","40","1.0","0.0","0.2"],
+    setup8: ["600","25","40","1.6","1.0","0.25"],
+    setup9: ["600","50","40","2.1","0.5","0.14"],
+    setup10: ["600","75","40","2.2","0.5","0.1"],
+    setup11: ["750","150","40","2.3","1.0","0.055"],
+    setup12: ["750","50","40","2.5","1.5","0.15"]
+}

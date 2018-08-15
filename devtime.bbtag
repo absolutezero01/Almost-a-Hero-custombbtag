@@ -1,0 +1,17 @@
+{set;~workingday;1;2;3;4;5}
+{set;~devday;{time;e;;;Europe/Madrid}}
+
+{set;~timeuntilh;{math;-;8;{time;H;;;Europe/Madrid}}}
+{set;~timeuntilm;{math;-;30;{time;mm;;;Europe/Madrid}}}
+{trim;
+{if;{get;~timeuntilm};<=;0;{set;~timeuntilh;{math;-;{get;~timeuntilh};1}}{set;~timeuntilm;{math;-;90;{time;mm;;;Europe/Madrid}}}}
+🕰 | It is **{time;dddd;;;Europe/Madrid}**, **{time;hh:mm A;;;Europe/Madrid}** where the developers at
+{if;{get;~devday};==;{get;~workingday;{math;-;{get;~devday};1}};
+{if;{get;~timeuntilh};<;-9;{if;{logic;||;{if;{userstatus;349484452755406877};==;online;true;false};{if;{userstatus;354579646643306506};==;online;true;false}};!=;true;
+❎ | You missed them today! Try again tomorrow.}{return}}
+{if;{get;~timeuntilh};<;0;{if;{logic;||;{if;{userstatus;349484452755406877};==;online;true;false};{if;{userstatus;354579646643306506};==;online;true;false}};==;true;
+✅ | They're online right now!
+📴 | They will be offline in about **{math;-;19;{time;H;;;Europe/Madrid}} hours**.{return};
+🕣 | They will be online around this time!{return}}}
+🕛 | In about **{get;~timeuntilh}** hours & **{get;~timeuntilm}** minutes, they will be online.;
+🙅 | They won't be online today.}}
